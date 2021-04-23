@@ -8,7 +8,7 @@
       </nuxt-link>
       <div class="text-white">
         <nuxt-link to="/">Home</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12" to="/about">About</nuxt-link>
+        <nuxt-link class="ml-3 lg:ml-12" to="/">About</nuxt-link>
         <nuxt-link class="ml-3 lg:ml-12" to="/">Subsidiaries</nuxt-link>
         <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded" to="/"
           >Lets Talk</nuxt-link
@@ -36,7 +36,7 @@
           <nuxt-link to="/">Home</nuxt-link>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="/about">About</nuxt-link>
+          <nuxt-link to="/">About</nuxt-link>
         </div>
         <div @click="toggleNav" class="py-2">
           <nuxt-link to="/">Subsidiaries</nuxt-link>
