@@ -19,7 +19,7 @@
             <span class="my-color">Lorem ipsum</span><br />
             dolor, sit amet consectetur adipisicing elit.
           </div>
-          <div class="my-10 max-w-md mx-auto lg:ml-auto">
+          <div class="my-10 max-w-md mx-auto lg:mx-0 lg:ml-auto">
             A Nigerian developed finance solutions group, tailored to deliver products made
           </div>
           <nuxt-link to="/" class="my-bg px-6 py-2 rounded">Visit Website</nuxt-link>
