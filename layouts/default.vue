@@ -54,11 +54,16 @@ html {
 }
 
 .my-container {
-  @apply px-16 mx-auto
+  @apply mx-auto;
+  padding: 0 24px;
 }
 
 .my-line {
   @apply h-0.5 w-48
+}
+
+.new-page {
+  @apply mt-32
 }
 
 </style>

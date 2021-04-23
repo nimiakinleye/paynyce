@@ -1,9 +1,9 @@
 <template>
-  <div class="py-2 px-48">
-    <div class="flex justify-between my-20">
-      <div>
-        <Logo class="w-32 mb-4" />
-        <div class="flex items-center justify-between">
+  <div class="py-2 px-12 lg:px-48">
+    <div class="flex flex-col md:flex-row justify-between my-20">
+      <div class="mb-8">
+        <Logo class="w-32 mb-2" />
+        <div class="flex items-end md:justify-between">
           <nuxt-link to="/" class="mr-3">
             <svg
               class="w-5 fill-current"
@@ -52,19 +52,19 @@
           </nuxt-link>
         </div>
       </div>
-      <div>
-        <div class="font-semibold mb-4">Location</div>
+      <div class="mb-8">
+        <div class="font-semibold mb-2">Location</div>
         <div>982 S Front St. Columbus, OH 43206</div>
       </div>
       <div>
-        <div class="font-semibold mb-4">Enquiries</div>
+        <div class="font-semibold mb-2">Enquiries</div>
         <div>+234 901 222 3456</div>
         <div>info@paynyce.co.uk</div>
       </div>
     </div>
     <div class="border-t-2 border-gray-300">
-      <div class="flex justify-between pt-2">
-        <div class="flex divide-x divide-gray-200">
+      <div class="flex flex-col md:flex-row items-center justify-between pt-2">
+        <div class="flex divide-x divide-gray-200 mb-3">
           <nuxt-link to="/" class="px-4">Privacy Policy</nuxt-link>
           <nuxt-link to="/" class="px-4">Legal</nuxt-link>
           <nuxt-link to="/" class="px-4">News</nuxt-link>

@@ -1,7 +1,8 @@
 <template>
   <div class="relative">
     <div class="">
-      <img class="w-full" src="../static/images/hero_image.PNG" alt="">
+      <img class="hidden sm:block w-full" src="../static/images/hero_image.PNG" alt="">
+      <img class="sm:hidden w-full" src="../static/images/hero_image_small.PNG" alt="">
     </div>
     <div class="my-container">
       <div class="flex flex-col absolute bottom-10 max-w-md text-white">
