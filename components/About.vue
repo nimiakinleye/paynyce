@@ -35,7 +35,7 @@
         </div>
       </div>
       <div>
-        <img src="../static/images/about_image.PNG" class="" alt="" />
+        <img src="../static/images/about_image.jpg" class="" alt="" />
       </div>
     </div>
   </div>
