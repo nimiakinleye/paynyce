@@ -6,7 +6,6 @@
       <nuxt-link to="/">
         <LogoIcon />
       </nuxt-link>
-      <div>{{ myThis }}</div>
       <div class="text-white">
         <nuxt-link to="/">Home</nuxt-link>
         <nuxt-link class="ml-3 lg:ml-12" to="/about">About</nuxt-link>
@@ -60,7 +59,6 @@ export default {
     return {
       position: true,
       positionMd: false,
-      myThis: '',
       showNav: false,
       navSvg: `<svg
             class="w-8 fill-current my-color"
