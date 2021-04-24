@@ -36,6 +36,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -51,6 +52,10 @@ html {
 
 .my-bg {
   background-color: #FF350D;
+}
+
+.my-bg:hover {
+  background-color: rgb(255, 53, 13, 0.8)
 }
 
 .my-container {
