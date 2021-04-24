@@ -1,9 +1,9 @@
 <template>
-  <div class="">
+  <div class="index-page">
     <Banner />
-    <About />
-    <Subsidiaries />
-    <ContactUs />
+    <About id="about"/>
+    <Subsidiaries id="subsidiaries"/>
+    <ContactUs id="contact-us"/>
   </div>
 </template>
 
@@ -23,10 +23,8 @@ export default {
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+.index-page {
+  transition: 0.5s;
 }
-*/
 
 </style>
