@@ -6,15 +6,10 @@
       <div class="max-w-lg text-center lg:text-left">
         <div class="font-bold text-sm uppercase mt-10 lg:mt-0">About us</div>
         <div class="font-semibold my-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aut
-          blanditiis animi facere beatae illo a, maxime odio consequatur ullam
-          veritatis quia, officia doloribus eius explicabo cupiditate quasi et
-          placeat.
+          Paynyce is all about what’s new, quality and functionality.
         </div>
         <div class="text-gray-600 my-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt atque
-          voluptatem odio! Iure, repellat consectetur fugiat omnis quas odit,
-          eum repellendus architecto maiores dolorem in?
+          We started this journey in 2020 and have since then grown our brand up. We have a team dedicated to building the brand and its trade partners. All businesses registered under Paynyce are independent of operations enabling effective work flow.
         </div>
         <div class="flex uppercase justify-center lg:justify-start items-center">
           <div class="hidden md:inline my-line bg-black"></div>

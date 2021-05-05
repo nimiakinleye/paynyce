@@ -6,7 +6,7 @@
     </div>
     <div class="my-container">
       <div class="flex flex-col absolute bottom-10 max-w-md text-white">
-        <h1 class="text-2xl mb-3">A global finance solutions group, tailored to deliver products made by humans for humans</h1>
+        <h1 class="text-2xl mb-3 pr-4">A conglomerate of top tier brands involved in gift card trading and Payment solutions, Music and Movie making and e-commerce services.</h1>
         <nuxt-link to="/" class="border-b border-white w-32">Learn more</nuxt-link>
       </div>
     </div>
