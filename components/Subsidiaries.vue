@@ -15,12 +15,17 @@
           </div>
         </div>
         <div class="lg:w-1/2 text-center lg:text-right text-white">
-          <div class="uppercase text-5xl font-bold">
-            <span class="my-color">Lorem ipsum</span><br />
-            dolor, sit amet consectetur adipisicing elit.
+          <div class="text-5xl font-bold">
+            <span class="my-color">Flippay</span><br />
           </div>
           <div class="my-10 max-w-md mx-auto lg:mx-0 lg:ml-auto">
-            A Nigerian developed finance solutions group, tailored to deliver products made
+            Sell your gift card and make money transfers to friends and family
+          <br />
+          <br />
+            We offer gift card, money transfer via e-mail and bill payment services.
+          <br />
+          <br />
+            We also offer Business solutions under the Flippay business platform.
           </div>
           <nuxt-link to="/" class="my-bg px-6 py-2 rounded">Visit Website</nuxt-link>
         </div>
