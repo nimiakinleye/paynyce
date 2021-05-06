@@ -8,17 +8,29 @@
             <div class="hidden md:inline my-line bg-white ml-4"></div>
           </div>
           <div class="flex flex-col items-center">
-            <div class="h-28 w-72 bg-white rounded my-5"></div>
-            <div class="h-28 w-72 bg-white rounded my-5 lg:ml-10"></div>
-            <div class="h-28 w-72 bg-white rounded my-5"></div>
-            <div class="h-28 w-72 bg-white rounded my-5"></div>
+            <div class="h-36 w-72 my-bg my-bg-1 rounded-lg my-5 flex items-center justify-center">
+              <div class="bg-overlay"></div>
+              <div><img src="../static/flip.svg" alt=""></div>
+            </div>
+            <div class="h-36 w-72 my-bg my-bg-2 rounded-lg my-5 lg:ml-10 flex items-center justify-center">
+              <div class="bg-overlay"></div>
+              <div><img src="../static/flip.svg" alt=""></div>
+            </div>
+            <div class="h-36 w-72 my-bg my-bg-3 rounded-lg my-5 flex items-center justify-center">
+              <div class="bg-overlay"></div>
+              <div><img src="../static/flip.svg" alt=""></div>
+            </div>
+            <div class="h-36 w-72 my-bg my-bg-4 rounded-lg my-5 flex items-center justify-center">
+              <div class="bg-overlay"></div>
+              <div><img src="../static/flip.svg" alt=""></div>
+            </div>
           </div>
         </div>
         <div class="lg:w-1/2 text-center lg:text-right text-white">
           <div class="text-5xl font-bold">
             <span class="my-color">Flippay</span><br />
           </div>
-          <div class="my-10 max-w-md mx-auto lg:mx-0 lg:ml-auto">
+          <div class="my-10 max-w-xl mx-auto text-2xl lg:mx-0 lg:ml-auto">
             Sell your gift card and make money transfers to friends and family
           <br />
           <br />
@@ -38,5 +50,36 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
+.my-bg-1 {
+  background-image: url("../static/images/blue_phone.PNG");
+}
+.my-bg-2 {
+  background-image: url("../static/images/vintage_phone.PNG");
+}
+.my-bg-3 {
+  background-image: url("../static/images/man_working.PNG");
+}
+.my-bg-4 {
+  background-image: url("../static/images/scenic_stage.PNG");
+}
+
+.my-bg {
+  background-size: cover;
+  position: relative;
+}
+
+.my-bg img {
+  position: relative;
+  z-index: 2;
+}
+
+.bg-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 1;
+}
 </style>
