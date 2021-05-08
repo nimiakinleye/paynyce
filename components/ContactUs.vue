@@ -4,7 +4,7 @@
       <div class="hidden md:inline my-line bg-white"></div>
       <div class="font-semibold ml-4">Contact us</div>
     </div>
-    <div class="font-bold text-4xl md:text-7xl">
+    <div data-aos="zoom-in" class="font-bold text-4xl md:text-7xl">
       Let's get specific
     </div>
   </div>

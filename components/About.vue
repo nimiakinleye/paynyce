@@ -3,7 +3,7 @@
     <div
       class="flex flex-col-reverse lg:grid grid-cols-2 gap-x-12 py-12 lg:py-32 items-center"
     >
-      <div class="max-w-lg text-center lg:text-left">
+      <div data-aos="fade-down-right" class="max-w-lg text-center lg:text-left">
         <div class="font-bold text-sm uppercase mt-10 lg:mt-0">About us</div>
         <div class="font-semibold my-5">
           Paynyce is all about what’s new, quality and functionality.
@@ -30,7 +30,7 @@
           
         </div>
       </div>
-      <div>
+      <div data-aos="fade-down-left">
         <img src="../static/images/about_image.jpg" class="" alt="" />
       </div>
     </div>
