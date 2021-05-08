@@ -63,6 +63,11 @@ html {
   padding: 0 24px;
 }
 
+.my-dissolve {
+  animation-name: my-dissolve;
+  animation-duration: 1500ms;
+}
+
 .my-line {
   @apply h-0.5 w-48
 }
@@ -71,4 +76,17 @@ html {
   @apply mt-32
 }
 
+@keyframes my-dissolve {
+  0% {
+    opacity: 0.5;
+    transform: translateY(30rem);
+  }
+  70% {
+    opacity: 0.7;
+    transform: translateY(0rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 </style>

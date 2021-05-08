@@ -8,25 +8,25 @@
             <div class="hidden md:inline my-line bg-white ml-4"></div>
           </div>
           <div class="flex flex-col items-center">
-            <div class="h-36 w-72 my-bg my-bg-1 rounded-lg my-5 flex items-center justify-center">
+            <div data-aos="flip-left" class="h-36 w-72 my-bg my-bg-1 rounded-lg my-5 flex items-center justify-center">
               <div class="bg-overlay"></div>
               <div><img src="../static/flip.svg" alt=""></div>
             </div>
-            <div class="h-36 w-72 my-bg my-bg-2 rounded-lg my-5 lg:ml-10 flex items-center justify-center">
+            <div data-aos="flip-left" class="h-36 w-72 my-bg my-bg-2 rounded-lg my-5 lg:ml-10 flex items-center justify-center">
               <div class="bg-overlay"></div>
               <div><img src="../static/flip.svg" alt=""></div>
             </div>
-            <div class="h-36 w-72 my-bg my-bg-3 rounded-lg my-5 flex items-center justify-center">
+            <div data-aos="flip-left" class="h-36 w-72 my-bg my-bg-3 rounded-lg my-5 flex items-center justify-center">
               <div class="bg-overlay"></div>
               <div><img src="../static/flip.svg" alt=""></div>
             </div>
-            <div class="h-36 w-72 my-bg my-bg-4 rounded-lg my-5 flex items-center justify-center">
+            <div data-aos="flip-left" class="h-36 w-72 my-bg my-bg-4 rounded-lg my-5 flex items-center justify-center">
               <div class="bg-overlay"></div>
               <div><img src="../static/flip.svg" alt=""></div>
             </div>
           </div>
         </div>
-        <div class="lg:w-1/2 text-center lg:text-right text-white">
+        <div data-aos="zoom-in-down" class="lg:w-1/2 text-center lg:text-right text-white">
           <div class="text-5xl font-bold">
             <span class="my-color">Flippay</span><br />
           </div>
