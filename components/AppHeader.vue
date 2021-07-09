@@ -9,9 +9,9 @@
       </nuxt-link>
       <div class="text-white links">
         <nuxt-link to="/" class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1">Home</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#about">About</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#subsidiaries">Subsidiaries</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded" to="#contact-us"
+        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="/#about">About</nuxt-link>
+        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="/#subsidiaries">Subsidiaries</nuxt-link>
+        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded" to="/#contact-us"
           >Lets Talk</nuxt-link
         >
       </div>
@@ -37,13 +37,13 @@
           <nuxt-link to="/">Home</nuxt-link>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="#about">About</nuxt-link>
+          <nuxt-link to="/#about">About</nuxt-link>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="#subsidiaries">Subsidiaries</nuxt-link>
+          <nuxt-link to="/#subsidiaries">Subsidiaries</nuxt-link>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="#contact-us">Let's Talk</nuxt-link>
+          <nuxt-link to="/#contact-us">Let's Talk</nuxt-link>
         </div>
       </div>
     </div>
