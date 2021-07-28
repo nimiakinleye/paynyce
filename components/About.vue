@@ -6,10 +6,10 @@
       <div data-aos="fade-down-right" class="max-w-lg text-center lg:text-left">
         <div class="font-bold text-sm uppercase mt-10 lg:mt-0">About us</div>
         <div class="font-semibold my-5">
-          Paynyce is all about what’s new, quality and functionality.
+          This company is all about what’s new, quality and functionality.
         </div>
         <div class="text-gray-600 my-5">
-          We started this journey in 2020 and have since then grown our brand up. We have a team dedicated to building the brand and its trade partners. All businesses registered under Paynyce are independent of operations enabling effective work flow.
+          We started this journey in 2020 and have since then grown our brand up. We have a team dedicated to building the brand and its trade partners. All businesses registered under this company are independent of operations enabling effective work flow.
         </div>
         <div class="flex uppercase justify-center lg:justify-start items-center">
           <div class="hidden md:inline my-line bg-black"></div>

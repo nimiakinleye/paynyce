@@ -2,7 +2,10 @@
   <div class="py-2 px-12 lg:px-48">
     <div class="flex flex-col md:flex-row justify-between my-20">
       <div class="mb-8">
-        <Logo class="w-32 mb-2" />
+        <div>
+          <img class="w-10" src="~/assets/logo.png" alt="">
+          NimiAkinleye
+        </div>
         <div class="flex items-end md:justify-between">
           <nuxt-link to="/" class="mr-3">
             <svg
@@ -58,8 +61,8 @@
       </div>
       <div>
         <div class="font-semibold mb-2">Enquiries</div>
-        <div>+234 901 222 3456</div>
-        <div>info@paynyce.co.uk</div>
+        <div>+234 708 506 2512</div>
+        <div>toluwanimiakinleye01@gmail.com</div>
       </div>
     </div>
     <div class="border-t-2 border-gray-300">
@@ -70,7 +73,7 @@
           <nuxt-link to="/" class="px-4">News</nuxt-link>
         </div>
         <div>
-          Copyright 2021 - PayNyce
+          Copyright 2021 - NimiAkinleye
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@
       class="hidden fixed top-0 z-40 px-4 lg:px-16 py-3 md:flex items-center justify-between w-full"
     >
       <nuxt-link to="/">
-        <LogoIcon />
+        <img class="w-12" src="~/assets/logo_white.png" alt="">
       </nuxt-link>
       <div class="text-white links">
         <nuxt-link to="/" class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1">Home</nuxt-link>
@@ -19,10 +19,10 @@
     <div class="fixed top-0 w-full z-40 md:hidden block">
       <div
         :class="{ bgBlur: positionMd }"
-        class="items-center flex justify-between px-2"
+        class="items-center flex justify-between px-2 py-3"
       >
         <nuxt-link class="w-8" to="/">
-          <LogoIcon class="w-12" />
+          <img class="w-12" src="~/assets/logo_white.png" alt="">
         </nuxt-link>
         <div @click="toggleNav" class="cursor-pointer" v-html="navSvg">
           
@@ -51,10 +51,8 @@
 </template>
 
 <script>
-import LogoIcon from './LogoIcon'
 export default {
   components: {
-    LogoIcon,
   },
   data() {
     return {
@@ -90,7 +88,7 @@ export default {
   },
   methods: {
     onScroll() {
-      if (window.pageYOffset > 500) {
+      if (window.pageYOffset > 250) {
         this.position = true
         this.positionMd = true
       } else {
