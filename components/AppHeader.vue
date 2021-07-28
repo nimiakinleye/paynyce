@@ -2,16 +2,60 @@
   <div class="">
     <div
       :class="{ bgBlur: positionMd }"
-      class="hidden fixed top-0 z-40 px-4 lg:px-16 py-3 md:flex items-center justify-between w-full"
+      class="
+        hidden
+        fixed
+        top-0
+        z-40
+        px-4
+        lg:px-16
+        py-3
+        md:flex
+        items-center
+        justify-between
+        w-full
+      "
     >
       <nuxt-link to="/">
-        <LogoIcon />
+        <div>
+          <img class="w-24" src="~/assets/logo_white.png" alt="" />
+        </div>
       </nuxt-link>
       <div class="text-white links">
-        <nuxt-link to="/" class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1">Home</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="/#about">About</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="/#subsidiaries">Subsidiaries</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded" to="/#contact-us"
+        <nuxt-link
+          to="/"
+          class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1"
+          >Home</nuxt-link
+        >
+        <nuxt-link
+          class="
+            ml-3
+            lg:ml-12
+            pb-1
+            hover:bg-white
+            hover:text-gray-800
+            px-3
+            py-1
+          "
+          to="/#about"
+          >About</nuxt-link
+        >
+        <nuxt-link
+          class="
+            ml-3
+            lg:ml-12
+            pb-1
+            hover:bg-white
+            hover:text-gray-800
+            px-3
+            py-1
+          "
+          to="/#subsidiaries"
+          >Subsidiaries</nuxt-link
+        >
+        <nuxt-link
+          class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded"
+          to="/#contact-us"
           >Lets Talk</nuxt-link
         >
       </div>
@@ -19,19 +63,27 @@
     <div class="fixed top-0 w-full z-40 md:hidden block">
       <div
         :class="{ bgBlur: positionMd }"
-        class="items-center flex justify-between px-2"
+        class="items-center flex justify-between px-2 py-3"
       >
         <nuxt-link class="w-8" to="/">
-          <LogoIcon class="w-12" />
+          <div>
+            <img class="w-16" src="~/assets/logo_white.png" alt="" />
+          </div>
         </nuxt-link>
-        <div @click="toggleNav" class="cursor-pointer" v-html="navSvg">
-          
-        </div>
+        <div @click="toggleNav" class="cursor-pointer" v-html="navSvg"></div>
       </div>
       <div
         id="nav"
         :class="{ showNav: showNav, hideNav: !showNav }"
-        class="flex flex-col divide-y-2 rounded-b-lg divide-black items-center bg-white bg-opacity-70 py-3"
+        class="
+          flex flex-col
+          divide-y-2
+          rounded-b-lg
+          divide-black
+          items-center
+          bg-white bg-opacity-70
+          py-3
+        "
       >
         <div @click="toggleNav" class="py-2">
           <nuxt-link to="/">Home</nuxt-link>
@@ -51,10 +103,8 @@
 </template>
 
 <script>
-import LogoIcon from './LogoIcon'
 export default {
   components: {
-    LogoIcon,
   },
   data() {
     return {
@@ -90,7 +140,7 @@ export default {
   },
   methods: {
     onScroll() {
-      if (window.pageYOffset > 500) {
+      if (window.pageYOffset > 250) {
         this.position = true
         this.positionMd = true
       } else {
@@ -100,7 +150,7 @@ export default {
     },
     toggleNav() {
       if (this.showNav === false) {
-        this.showNav = true;
+        this.showNav = true
         this.navSvg = `<svg
             class="w-8 fill-current my-color"
             viewBox="0 0 340.8 340.8"
@@ -123,7 +173,7 @@ export default {
             </g>
           </svg>`
       } else {
-        this.showNav = false;
+        this.showNav = false
         this.navSvg = `<svg
             class="w-8 fill-current my-color"
             viewBox="0 0 512 512"

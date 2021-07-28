@@ -16,7 +16,7 @@
         </div>
         <div class="lg:w-1/2 text-center lg:text-right text-white">
           <div class="text-5xl font-bold">
-            <span class="my-color">Flippay</span><br />
+            <span class="my-color">Nimi</span><br />
           </div>
           <div class="my-10 max-w-md mx-auto lg:mx-0 lg:ml-auto">
             Sell your gift card and make money transfers to friends and family
@@ -25,7 +25,7 @@
             We offer gift card, money transfer via e-mail and bill payment services.
           <br />
           <br />
-            We also offer Business solutions under the Flippay business platform.
+            We also offer Business solutions under this company's business platform.
           </div>
           <nuxt-link to="/" class="my-bg px-6 py-2 rounded">Visit Website</nuxt-link>
         </div>
