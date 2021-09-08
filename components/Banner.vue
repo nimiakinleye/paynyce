@@ -8,7 +8,7 @@
     </div>
     <div data-aos="fade-left" class="grid grid-cols-12 text-white">
       <div class="col-start-1 col-end-13 lg:col-end-9 hero-bg py-48">
-        <div class="my-container">
+        <div data-aos="fade-up" class="my-container">
           <h2 class="font-bold text-sm uppercase my-10 lg:mt-0">What we do</h2>
           <p class="max-w-md text-lg">
             We leverage our breadth of asset classes, vertically integrated

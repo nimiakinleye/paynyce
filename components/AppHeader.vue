@@ -164,6 +164,10 @@ export default {
   transition: 1000ms;
 }
 
+.bgBlur a {
+  color: white;
+}
+
 #nav {
   transition: 1000ms;
   backdrop-filter: blur(2px);
