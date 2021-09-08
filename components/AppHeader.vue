@@ -5,13 +5,13 @@
       class="hidden fixed top-0 z-40 px-4 lg:px-16 py-3 md:flex items-center justify-between w-full"
     >
       <nuxt-link to="/">
-        <img class="w-12" src="~/assets/logo_white.png" alt="">
+        <img class="w-12" src="~/assets/logo.svg" alt="">
       </nuxt-link>
-      <div class="text-white links">
+      <div class="text-black links">
         <nuxt-link to="/" class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1">Home</nuxt-link>
         <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#about">About</nuxt-link>
         <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#subsidiaries">Subsidiaries</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded" to="#contact-us"
+        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded text-white" to="#contact-us"
           >Lets Talk</nuxt-link
         >
       </div>
@@ -22,7 +22,7 @@
         class="items-center flex justify-between px-2 py-3"
       >
         <nuxt-link class="w-8" to="/">
-          <img class="w-12" src="~/assets/logo_white.png" alt="">
+          <img class="w-12" src="~/assets/logo.svg" alt="">
         </nuxt-link>
         <div @click="toggleNav" class="cursor-pointer" v-html="navSvg">
           

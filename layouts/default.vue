@@ -60,7 +60,7 @@ html {
 
 .my-container {
   @apply mx-auto;
-  padding: 0 24px;
+  margin: 0 24px;
 }
 
 .my-dissolve {

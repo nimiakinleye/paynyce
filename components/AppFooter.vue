@@ -3,8 +3,7 @@
     <div class="flex flex-col md:flex-row justify-between my-20">
       <div class="mb-8">
         <div>
-          <img class="w-10" src="~/assets/logo.png" alt="">
-          NimiAkinleye
+          <img class="w-36 mb-5" src="~/assets/full_logo.svg" alt="">
         </div>
         <div class="flex items-end md:justify-between">
           <nuxt-link to="/" class="mr-3">
@@ -61,8 +60,8 @@
       </div>
       <div>
         <div class="font-semibold mb-2">Enquiries</div>
-        <div>+234 708 506 2512</div>
-        <div>toluwanimiakinleye01@gmail.com</div>
+        <div>+234 901 222 3456</div>
+        <div>info@paynyce.co.uk</div>
       </div>
     </div>
     <div class="border-t-2 border-gray-300">
@@ -73,7 +72,7 @@
           <nuxt-link to="/" class="px-4">News</nuxt-link>
         </div>
         <div>
-          Copyright 2021 - NimiAkinleye
+          Copyright 2021 - PayNyce
         </div>
       </div>
     </div>
