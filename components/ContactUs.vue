@@ -1,21 +1,26 @@
 <template>
-  <div class="bg-yellow-500 px-3 py-32 text-white text-center">
-    <div class="flex justify-center items-center mb-10 uppercase">
-      <div class="hidden md:inline my-line bg-white"></div>
-      <div class="font-semibold ml-4">Contact us</div>
+  <div>
+    <div class="bg-yellow-500 px-3 py-32 text-white text-center">
+      <div class="flex justify-center items-center mb-10 uppercase">
+        <div class="hidden md:inline my-line bg-white"></div>
+        <div class="font-semibold ml-4">Contact us</div>
+      </div>
+      <div data-aos="zoom-in" class="font-bold text-4xl md:text-7xl">
+        Let's get specific
+      </div>
     </div>
-    <div data-aos="zoom-in" class="font-bold text-4xl md:text-7xl">
-      Let's get specific
-    </div>
+    <!-- <Contact /> -->
   </div>
 </template>
 
 <script>
+import Contact from '~/components/Contact.vue'
 export default {
-
+  components: {
+    Contact
+  }
 }
 </script>
 
 <style>
-
 </style>

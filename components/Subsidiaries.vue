@@ -2,7 +2,7 @@
   <div class="my-container">
     <div data-aos="fade-right" class="py-16">
       <div class="font-bold text-sm uppercase mb-10">Our subsidiaries</div>
-      <div class="text-2xl max-w-md font-semibold">
+      <div class="text-4xl opacity-80 max-w-md font-semibold">
         We’re the design secret ingredient missing from your financial life
       </div>
     </div>

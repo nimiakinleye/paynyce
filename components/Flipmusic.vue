@@ -3,8 +3,8 @@
     <div class="flex flex-col-reverse items-center md:flex-row justify-between md:items-end">
       <div class="max-w-sm">
         <img class="mx-auto md:mx-0" src="~/assets/logo_allwhite.svg" alt="" />
-        <h1 class="my-14">LOREM IPSUM DOLOR WHATNOT TE AMOR</h1>
-        <p class="my-14">
+        <h1 class="my-2 md:my-8 text-3xl font-bold">LOREM IPSUM DOLOR WHATNOT TE AMOR</h1>
+        <p class="my-2 mb-4 md:my-8">
           A Nigerian developed finance solutions group, tailored to deliver
           products made. A Nigerian developed finance solutions group, tailored
           to deliver products made
