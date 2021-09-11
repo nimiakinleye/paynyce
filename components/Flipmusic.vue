@@ -12,7 +12,7 @@
         <nuxt-link class="rounded-lg bg-white px-5 py-2 text-yellow-500 hover:text-yellow-600" to="/">Visit website</nuxt-link>
       </div>
       <div>
-        <img class="md:w-1/2 mx-auto mb-4 md:mx-0 md:ml-auto md:-mb-6" src="~/assets/flip_music_samp.png" alt="">
+        <img class="md:w-2/5 mx-auto mb-4 md:mx-0 md:ml-auto md:-mb-6 pr-12" src="~/assets/flip_music.svg" alt="">
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="p-6 bg-blue-50 my-6 rounded-lg">
     <div class="flex flex-col-reverse md:flex-row justify-between">
-      <div class="max-w-sm">
+      <div data-aos="flip-left" class="max-w-sm">
         <img class="w-32" src="~/assets/full_logo.svg" alt="" />
         <h1 class="my-2 md:my-8 text-3xl font-bold">FlipDidIt</h1>
         <p class="my-2 mb-4 md:my-8">
