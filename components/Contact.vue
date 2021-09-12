@@ -134,7 +134,7 @@ export default {
 
 .contact .contact_form {
   @apply col-start-5 col-end-13
-  px-3;
+  px-6;
 }
 
 .contact .contact_media .contact_medium {
@@ -168,14 +168,14 @@ export default {
 .contact_form .input {
   @apply flex
   flex-col
-  my-3;
+  my-5;
 }
 
 .contact_form .input label {
   @apply text-gray-500
   font-normal
   text-sm
-  mb-3;
+  mb-1;
 }
 
 .contact_form input,
