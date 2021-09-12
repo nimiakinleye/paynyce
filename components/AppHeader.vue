@@ -11,12 +11,12 @@
         <nuxt-link to="/" class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1">Home</nuxt-link>
         <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#about">About</nuxt-link>
         <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#subsidiaries">Subsidiaries</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded text-white" to="#contact-us"
+        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded text-white" to="/contact"
           >Lets Talk</nuxt-link
         >
       </div>
     </div>
-    <div class="fixed top-0 w-full z-40 md:hidden block">
+    <div class="fixed top-0 w-full z-40 md:hidden block h-0">
       <div
         :class="{ bgBlur: positionMd }"
         class="items-center flex justify-between px-2 py-3"
@@ -43,7 +43,7 @@
           <nuxt-link to="#subsidiaries">Subsidiaries</nuxt-link>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="#contact-us">Let's Talk</nuxt-link>
+          <nuxt-link to="/contact">Let's Talk</nuxt-link>
         </div>
       </div>
     </div>

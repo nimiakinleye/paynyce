@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-36">
+  <div class="mt-16 lg:mt-24">
     <Contact />
   </div>
 </template>

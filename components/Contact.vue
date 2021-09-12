@@ -104,14 +104,14 @@ export default {
   lg:grid
   grid-cols-12
   gap-x-12
-  px-12;
+  lg:px-12;
 }
 
 .contact .contact_information {
   @apply col-start-1
   col-end-5
   bg-purple-900
-  px-10
+  px-3
   py-5
   lg:rounded-lg
   text-white
@@ -134,7 +134,7 @@ export default {
 
 .contact .contact_form {
   @apply col-start-5 col-end-13
-  px-10;
+  px-3;
 }
 
 .contact .contact_media .contact_medium {

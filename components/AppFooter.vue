@@ -1,5 +1,5 @@
 <template>
-  <div class="py-2 px-12 lg:px-48">
+  <div class="py-2 px-3 lg:px-48">
     <div class="flex flex-col md:flex-row justify-between my-20">
       <div class="mb-8">
         <div>
