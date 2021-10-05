@@ -13,13 +13,14 @@
         <nuxt-link class="rounded-lg bg-yellow-500 px-5 py-2 text-white hover:bg-yellow-600" to="/">Visit website</nuxt-link>
       </div>
       <div class="md:grid grid-cols-2 w-1/2 gap-6 hidden">
-        <div class="flex flex-col justify-between">
+        <!-- <div class="flex flex-col justify-between">
           <img data-aos="zoom-in" class="rounded-lg" src="~/assets/did_it_1.png" alt="" />
           <img data-aos="zoom-in" class="rounded-lg" src="~/assets/did_it_2.png" alt="" />
-        </div>
+        </div> -->
+        <img data-aos="zoom-in" class="rounded-lg" src="~/assets/flipdidit_1.jpg" alt="" />
         <img data-aos="zoom-in"
           class="row-start-1 col-start-2 rounded-lg"
-          src="~/assets/did_it_3.png"
+          src="~/assets/flipdidit_2.jpg"
           alt=""
         />
       </div>

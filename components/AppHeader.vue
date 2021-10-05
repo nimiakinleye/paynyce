@@ -88,7 +88,7 @@ export default {
   },
   methods: {
     onScroll() {
-      if (window.pageYOffset > 200) {
+      if (window.pageYOffset > 150) {
         this.position = true
         this.positionMd = true
       } else {

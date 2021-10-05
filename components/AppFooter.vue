@@ -1,5 +1,5 @@
 <template>
-  <div class="py-2 px-3 lg:px-48">
+  <footer class="py-2 px-3 lg:px-48">
     <div class="flex flex-col md:flex-row justify-between my-20">
       <div class="mb-8">
         <div>
@@ -54,14 +54,14 @@
           </nuxt-link>
         </div>
       </div>
-      <div class="mb-8">
+      <!-- <div class="mb-8">
         <div class="font-semibold mb-2">Location</div>
         <div>982 S Front St. Columbus, OH 43206</div>
-      </div>
+      </div> -->
       <div>
         <div class="font-semibold mb-2">Enquiries</div>
         <div>+234 901 222 3456</div>
-        <div>info@paynyce.co.uk</div>
+        <div>info@paynyce.com</div>
       </div>
     </div>
     <div class="border-t-2 border-gray-300">
@@ -76,7 +76,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
