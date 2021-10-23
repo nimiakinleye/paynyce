@@ -4,15 +4,15 @@
       :class="{ bgBlur: positionMd }"
       class="hidden fixed top-0 z-40 px-4 lg:px-16 py-3 md:flex items-center justify-between w-full"
     >
-      <nuxt-link to="/">
+      <a href="/">
         <img class="w-12" src="~/assets/logo.svg" alt="">
-      </nuxt-link>
+      </a>
       <div class="text-black links">
-        <nuxt-link to="/" class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1">Home</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#about">About</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" to="#subsidiaries">Subsidiaries</nuxt-link>
-        <nuxt-link class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded text-white" to="/contact"
-          >Lets Talk</nuxt-link
+        <a href="/" class="pb-1 hover:bg-white hover:text-gray-800 px-3 py-1">Home</a>
+        <a class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" href="#about">About</a>
+        <a class="ml-3 lg:ml-12 pb-1 hover:bg-white hover:text-gray-800 px-3 py-1" href="#subsidiaries">Subsidiaries</a>
+        <a class="ml-3 lg:ml-12 my-bg px-6 py-2 rounded text-white" href="/contact"
+          >Lets Talk</a
         >
       </div>
     </div>
@@ -21,9 +21,9 @@
         :class="{ bgBlur: positionMd }"
         class="items-center flex justify-between px-2 py-3"
       >
-        <nuxt-link class="w-8" to="/">
+        <a class="w-8" href="/">
           <img class="w-12" src="~/assets/logo.svg" alt="">
-        </nuxt-link>
+        </a>
         <div @click="toggleNav" class="cursor-pointer" v-html="navSvg">
           
         </div>
@@ -34,16 +34,16 @@
         class="flex flex-col divide-y-2 rounded-b-lg divide-black items-center bg-white bg-opacity-70 py-3"
       >
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="/">Home</nuxt-link>
+          <a href="/">Home</a>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="#about">About</nuxt-link>
+          <a href="#about">About</a>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="#subsidiaries">Subsidiaries</nuxt-link>
+          <a href="#subsidiaries">Subsidiaries</a>
         </div>
         <div @click="toggleNav" class="py-2">
-          <nuxt-link to="/contact">Let's Talk</nuxt-link>
+          <a href="/contact">Let's Talk</a>
         </div>
       </div>
     </div>
@@ -182,7 +182,7 @@ export default {
   transform: translateX(0);
 }
 
-.links .nuxt-link-exact-active {
+.links .a-exact-active {
   border-bottom: 3px #fff solid;
 }
 
